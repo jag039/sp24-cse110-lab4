@@ -1,0 +1,2 @@
+1. The bug was that the function printSum() was taking num1 and num2 as strings so when CalculateSum ran it concatenated the two strings. Ex. '1' + '1' = '11'
+2. I fixed this by adding parseFloat() to convert the strings to float so they could be added corectly
